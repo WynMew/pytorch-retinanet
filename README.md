@@ -1,5 +1,12 @@
 # pytorch-retinanet
 Revised by Wyn Mew
+## Dependencies
+- Python 3.6+ (Anaconda)
+- PyTorch-0.4.1 +
+- scipy, numpy, sklearn etc.
+- OpenCV3 (Python)
+
+Tested on Ubuntu 16.10 server LTS, Python 3.6 (Anaconda), PyTorch-0.4.1, CUDA 8.0, cuDNN 5.0
 
 ![img3](https://github.com/yhenon/pytorch-retinanet/blob/master/images/3.jpg)
 ![img5](https://github.com/yhenon/pytorch-retinanet/blob/master/images/5.jpg)
