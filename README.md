@@ -1,4 +1,5 @@
 # pytorch-retinanet
+Revised by Wyn Mew
 
 ![img3](https://github.com/yhenon/pytorch-retinanet/blob/master/images/3.jpg)
 ![img5](https://github.com/yhenon/pytorch-retinanet/blob/master/images/5.jpg)
