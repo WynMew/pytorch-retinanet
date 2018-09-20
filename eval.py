@@ -12,9 +12,7 @@ import numpy as np
 
 assert torch.__version__.split('.')[1] == '4' # pytorch 0.4.* only
 My_CLASSES = (  # always index 0
-    '2guw', 'fm2a', 'nb5e', 'tbhp', 'xz7m',
-    '6ate', '6uxf', 'h8u5', 'n1lb'
- #   'eoqx' # neg
+    'a', 'b'
     )
 img_size = 512
 MyClassNum = len(My_CLASSES)
@@ -35,7 +33,7 @@ preprocess = transforms.Compose([
 
 idx=[]
 
-for line in open(osp.join('/home/wynmew/workspace/Data', 'Data20180911GT')):
+for line in open(osp.join('/home/wynmew/workspace/Data', 'Data')):
     idx.append(('/home/wynmew/workspace/Data', line.strip()))
 
 counter=0
